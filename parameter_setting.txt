@@ -1,0 +1,73 @@
+Algorithm - default parameters
+For details about the parameters please refer to the corresponding paper.
+
+TBP:
+  k=5 (number of predicted items)
+
+LST:
+  k=5 (number of predicted items)
+  
+TOP: 
+  k=5 (number of predicted items)
+
+MC: 
+  k=5 (number of predicted items)
+  
+CLF: 
+  k=5 (number of predicted items)
+  
+  C. Cumby, A. Fano, R. Ghani, and M. Krema, 
+  ''Predicting customer shopping lists from point-of-sale purchase data''
+  
+NMF: 
+  n_factor=100
+  alpha=0
+  l1_ratio=0
+  beta=1
+  max_iter=100
+  tol=1e-4
+  
+  D. D. Lee and H. S. Seung, 
+  ''Algorithms for non-negative matrix factorization''
+  
+FMC: 
+  n_factor=100
+  alpha=0.01
+  lambdas=(0.001, 0.001, 0.001, 0.001)
+  std=0.01
+  n_epoch=1000
+  tolerance=1.0e-8
+  
+  S. Rendle, C. Freudenthaler, and L. Schmidt-Thieme, 
+  ''Factorizing personalized markov chains for next-basket recommendation''
+  
+HRM: 
+  neg_samples=25
+  n_epoch=100
+  alpha=0.01
+  lambda_r=0.001
+  decay=0.9
+  drop=0.6
+  
+  P. Wang, J. Guo, Y. Lan, J. Xu, S. Wan, and X. Cheng, 
+  ''Learning hierarchical representation model for nextbasket recommendation''
+
+DRM:
+  alpha = 0.01
+  decay = 100.0
+  lambda_r = 0.001
+  n_hidden = 3
+  embedding_dimension = 10
+  n_epoch = 100
+  
+  F. Yu, Q. Liu, S. Wu, L. Wang, and T. Tan, 
+  ''A dynamic recurrent model for next basket recommendation''
+  
+ 
+  
+  
+Train-Test split:
+  min_number_of_basket=10 (minimum number of baskets)
+  min_basket_size=1 (minimum basket size)
+  max_basket_size=float('inf') (maximum basket size)
+  min_item_occurrences=2 (minimum number of occurrences of an item)
