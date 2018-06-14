@@ -64,10 +64,10 @@ DRM:
   ''A dynamic recurrent model for next basket recommendation''
   
  
-  
-  
 Train-Test split:
   min_number_of_basket=10 (minimum number of baskets)
   min_basket_size=1 (minimum basket size)
   max_basket_size=float('inf') (maximum basket size)
   min_item_occurrences=2 (minimum number of occurrences of an item)
+  
+There are not specific computer memory requirements.
