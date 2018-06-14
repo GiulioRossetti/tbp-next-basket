@@ -8,9 +8,9 @@ We define the method to extract TARS and develop a predictor for next basket nam
 By adopting the TBP the supermarket chains could crop tailored suggestions for each individual customer which in turn could effectively speed up their shopping sessions.
 
 ## Citation
-> R. Guidotti, G. Rossetti, L. Pappalardo, F. Giannotti, D. Pedreschi *"
-Market Basket Prediction using User-Centric Temporal Annotated Recurring Sequences"*, IEEE International Conference on Data Mining, 2017. Accepted to appear.
+> R. Guidotti, G. Rossetti, L. Pappalardo, F. Giannotti, D. Pedreschi 
+*"Market Basket Prediction using User-Centric Temporal Annotated Recurring Sequences"*, IEEE International Conference on Data Mining, 2017. In 2017 IEEE International Conference on Data Mining (ICDM) (pp. 895-900). IEEE.
 
-> R. Guidotti, G. Rossetti, L. Pappalardo, F. Giannotti, D. Pedreschi *"
-Next Basket Prediction using Recurring Sequential Patterns"*, [arXiv:1702.07158](https://arxiv.org/abs/1702.07158) [cs.DB], 2017
+> R. Guidotti, G. Rossetti, L. Pappalardo, F. Giannotti, D. Pedreschi 
+*"Next Basket Prediction using Recurring Sequential Patterns"*, [arXiv:1702.07158](https://arxiv.org/abs/1702.07158) [cs.DB], 2017
 
